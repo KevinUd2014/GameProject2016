@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E72280BD-CB45-61E1-F6E0-51D37AD98502}") = "3d_Horror_Game", "Assembly-CSharp.csproj", "{A42DB63B-59C5-1FFF-D13F-D3257059B361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A42DB63B-59C5-1FFF-D13F-D3257059B361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42DB63B-59C5-1FFF-D13F-D3257059B361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42DB63B-59C5-1FFF-D13F-D3257059B361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42DB63B-59C5-1FFF-D13F-D3257059B361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
