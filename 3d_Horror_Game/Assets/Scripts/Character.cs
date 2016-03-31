@@ -5,8 +5,8 @@ public class Character : MonoBehaviour {
 
     public float movementSpeed = 5.00f;
     public float mouseSensitivity = 5.00f;
-    float verticalRotation = 0f;
-    public float upDownRate = 60.0f;
+    float verticalRotation = 0f; //will help with the vertical rotation of the camera
+    public float upDownRate = 60.0f;//sets the rate that the camera will max go to best is 80.
 
 	// Use this for initialization  
 	void Start () {
@@ -18,7 +18,7 @@ public class Character : MonoBehaviour {
 
         //rotation
         float rotationSide = Input.GetAxis("Mouse X") * mouseSensitivity;
-        //float rotationUpDown = Input.GetAxis("Mouse Y") * mouseSensitivity; //you can't do it Like this, charactercontrollers don't pitch up and down!
+        //float rotationUpDown = Input.GetAxis("Mouse Y") * mouseSensitivity; //you can't do it Like this, charactercontrollers don't pitch up and down! 
         transform.Rotate(0, rotationSide, 0);
 
         verticalRotation -= Input.GetAxis("Mouse Y") * mouseSensitivity;
