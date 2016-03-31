@@ -313,7 +313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 6.52
   mouseSensitivity: 2
-  upDownRate: 80
+  upDownRate: 82
 --- !u!143 &831210452
 CharacterController:
   m_ObjectHideFlags: 0
